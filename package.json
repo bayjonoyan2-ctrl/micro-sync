@@ -1,0 +1,33 @@
+{
+  "name": "micro-sync",
+  "version": "0.1.0",
+  "description": "A zero-config, local-first sync engine for JavaScript. Handles offline queues, retries, and basic conflict resolution.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "local-first",
+    "sync",
+    "offline",
+    "crdt",
+    "indexeddb",
+    "sqlite",
+    "zero-config"
+  ],
+  "author": "bayjonoyan2-ctrl",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayjonoyan2-ctrl/micro-sync.git"
+  }
+}
